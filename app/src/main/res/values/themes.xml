@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.FatClip" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Outline -->
+        <item name="colorOutline">@color/colorOutline</item>
+        <!-- Customize your theme here. -->
+        <item name="materialSwitchStyle">@style/Widget.App.Switch</item>
+    </style>
+
+<!--    <style name="Theme.FatClip.Splash" parent="Theme.SplashScreen">-->
+<!--        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_splash</item>-->
+<!--        <item name="windowSplashScreenAnimationDuration">1000</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Theme.FatClip</item>-->
+<!--    </style>-->
+
+    <style name="SplashTheme" parent="Theme.FatClip">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/ic_splash</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges
+        </item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="@style/Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="Theme.FatClip">
+        <item name="colorSurfaceVariant">@color/colorPrimaryVariant</item>
+    </style>
+</resources>

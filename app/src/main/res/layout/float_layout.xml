@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:background="#000000"
+    tools:layout_height="match_parent"
+    tools:layout_width="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/click"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_play"
+        android:padding="1dp"
+        android:src="@drawable/icon_location" />
+</FrameLayout>

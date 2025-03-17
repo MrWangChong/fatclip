@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@android:color/white" />
+
+    <!--    <item android:top="18dp">-->
+    <!--        <bitmap-->
+    <!--            android:gravity="top|center_horizontal"-->
+    <!--            android:src="@drawable/icon_login" />-->
+    <!--    </item>-->
+
+    <!--    <item android:bottom="30dp">-->
+    <!--        <bitmap-->
+    <!--            android:gravity="bottom|center_horizontal"-->
+    <!--            android:src="@drawable/icon_login" />-->
+    <!--    </item>-->
+
+    <!--    <item>-->
+    <!--        <bitmap-->
+    <!--            android:gravity="fill"-->
+    <!--            android:src="@drawable/bg_login" />-->
+    <!--    </item>-->
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_splash" />
+    </item>
+
+</layer-list>

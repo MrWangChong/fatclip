@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryVariant">#D5D5D5</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#00ACC1</color>
+    <color name="colorSecondaryVariant">#D5D5D5</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorOutline">#000000</color>
+
+
+    <color name="home_switcher_common">#B6B6B6</color>
+    <color name="home_switcher_checked">#3949AB</color>
+
+    <color name="overlay_bilibili_priconne_card">#F84F8C</color>
+</resources>
