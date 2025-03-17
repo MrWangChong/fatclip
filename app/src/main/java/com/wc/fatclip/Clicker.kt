@@ -16,7 +16,7 @@ object Clicker {
     var listener: OnClickListener? = null
 
     private var timer: CountTimer? = null
-    private var count = 500
+    private var count = 6000
 
     fun startClick(point: Point, @IntRange(from = 0, to = 4) id: Int = 0) {
         if (id < 0 || id > 4) {
@@ -25,7 +25,7 @@ object Clicker {
         val service = ClickService.mService ?: return
         isStarting = true
         tasks[id] = point
-        count = 500
+        count = 6000
         if (timer != null) {
             timer?.start()
             return
